@@ -11,7 +11,7 @@ import SharedModels
 public final class ConsumetAPI: APIBase {
     public static let shared: ConsumetAPI = .init()
 
-    public let base = URL(string: "https://api.consumet.org")!
+    public let base = URL(string: "https://api-consumet-1029384756.vercel.app")!
 
     private init() { }
 }
